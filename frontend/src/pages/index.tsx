@@ -1,3 +1,11 @@
+import CountryList from "@/components/CountryList";
+import Layout from "@/layouts/layout";
+
 export default function Home() {
-  return <h1>Hello, wilder !</h1>;
+
+  return (
+    <Layout>
+      <CountryList/>
+    </Layout>
+  );
 }
